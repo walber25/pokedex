@@ -1,1 +1,1 @@
-# pokedex
+# Trilha JS Developer (DIO) - Pokedex 
