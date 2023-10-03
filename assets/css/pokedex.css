@@ -3,8 +3,8 @@
     grid-template-columns: 1fr;
     margin: 0;
     padding: 0;
-    list-style: none;  
-}
+    list-style: none; 
+ }   
 
 .normal{
     background-color: #a6a877;
@@ -36,7 +36,6 @@
 .fighting{
     background-color:#bf3029;
 } 
-
 .psychic {
     background-color: #f65687;
 }
@@ -70,6 +69,9 @@
     border-radius: 1rem;
     
         
+}
+.pokemon .link-do-pokemon {
+    display: unset;
 }
 
 .pokemon .number{
@@ -135,13 +137,17 @@
 }
 
 @media screen and (min-width:576px) {
-    .pokemons {
-        grid-template-columns: 1fr 1fr 1fr;
+       .pokemons {
+        grid-template-columns: 1fr 1fr 1fr;                
     }
+   
 }
 
 @media screen and (min-width:992px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
+    
 }
+
+
